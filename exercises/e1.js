@@ -14,7 +14,11 @@
 */
 
 // Your code goes here
+function logMessage() {
+console.log('Hello, World!');
+}
 
+logMessage()
 
 
 
@@ -30,7 +34,11 @@
 */
 
 // Your code goes here...
+function logMyMessage(a) {
+  console.log(a);
+}
 
+logMyMessage('My Message')
 
 
 
@@ -45,7 +53,11 @@
 */
 
 // Your code goes here...
+function logMessageWithMyName(n) {
+  console.log('My name is '+ n +'!');
+}
 
+logMessageWithMyName('Brandon')
 
 
 
@@ -61,7 +73,11 @@
 */
 
 // Your code goes here...
+function logMyInfo(n, a) {
+  console.log('My name is '+ n +'. I am ' + a + ' years old!' );
+}
 
+logMyInfo('Brandon', 24)
 
 
 
